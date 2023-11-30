@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+const int gridSize = 10;
+char ploca[velicinaPloce][velicinaPloce];
+
+void initializeGrid() {
+    for (int i = 0; i < gridSize; i++) {
+        for (int j = 0; j < gridSize; j++) {
+            grid[i][j] = ' ';
+        }
+    }
+}
+void placeShips() {
+    char minlovac,frigat,kruzer,bojni brod;     
+    minolovac = "XX";
+    frigat = "XXX";
+    kruzer = "XXXX";
+    bojni brod = "XXXXX";
+
+
+}
+int(main){
+    int koordinata [a][b];
+    char brod;
+poc:for (int i = 0; i < 12; i++) {
+    for (int j = 0; j < 12; j++) {
+    cin>>koordinata;
+    cin>>brod;
+  if(brod=="minolovac-h"){
+      grid[i][j] = "X";
+      grid[i+1]="X"
+      grid[i+2]="X"
+
+    
+  }
+}
+}
